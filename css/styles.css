@@ -1,0 +1,1164 @@
+.container{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom:56.25%; /* 16:9, 56.25% */
+	height: auto;
+	margin-bottom:5px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%    !important;
+  	height: 100%   !important;
+}
+
+a {
+	text-decoration:none;
+	font-family:"raleway-bold", arial;
+	color:#4b4848;
+}
+
+a:hover{
+	color:#ccc;
+}
+
+h1{
+	color: #4b4848;
+    font-family: "raleway-regular", arial;
+	display:block;
+}
+
+footer {
+	position: fixed;
+	bottom: 15px;
+	clear: both;
+	
+	margin: 0 25px;
+	padding: 5px 30px 5px 0px;
+	background-color: #ffffff;
+	background: rgba(255, 255, 255, 1);
+	
+    font-family: "raleway-regular", arial;
+	font-size: 10px;
+	color: #4b4848;
+	letter-spacing: 1px;
+}
+
+#icon{
+	background-image:url(../images/logo.gif);
+	background-size:cover;
+}
+
+#left{
+	position:fixed;
+}
+
+#right{ 
+	min-height:100px;
+}
+
+h5{
+	position: relative;
+    display: inline-block;
+    max-width: 90%;
+    padding: 20px 0;
+    z-index: 100;
+    color: #000;
+    font-family: "raleway-regular", arial;
+    font-size: 16px;
+    letter-spacing: .5px;
+    border: 2px 2px 2px 2px solid #000;
+}
+
+#thumb1{
+	background-image:url(../images/toughluck_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+#thumb2{
+	background-image:url(../images/wheaties_thumb.gif);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb3{
+	background-image:url(../images/illustration_thumb.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb4{
+	background-image:url(../images/threadless_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb5{
+	background-image:url(../images/madcircusgala_thumb.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb6{
+	background-image:url(../images/endtable_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb7{
+	background-image:url(../images/imatelier_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb8{
+	background-image:url(../images/monsters_thumb.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb9{
+	background-image:url(../images/logos_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb10{
+	background-image:url(../images/peacecorps_thumb.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb11{
+	background-image:url(../images/unclejohns_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb12{
+	background-image:url(../images/vegportraits_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb13{
+	background-image:url(../images/sketches_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb14{
+	background-image:url(../images/friends_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb15{
+	background-image:url(../images/tshirts_thumb.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb16{
+	background-image:url(../images/comics_thumb.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb17{
+	background-image:url(../images/digitalpainting_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb18{
+	background-image:url(../images/conceptart_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb19{
+	background-image:url(../images/oddsnends_thumb.gif);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#thumb20{
+	background-image:url(../images/artcrank2015_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+#thumb21{
+	background-image:url(../images/mnufc_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+#thumb22{
+	background-image:url(../images/toughluck_thumb.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+#right .projectimg{ /*project images, keep this!*/
+	width:100%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	margin-bottom:5px;
+}
+
+#mnufc1{
+	background-image:url(../images/project/mnufc/mnufc1.jpg);
+	padding-top:128%;
+}
+
+#mnufc2{
+	background-image:url(../images/project/mnufc/mnufc2.jpg);
+	padding-top:75%;
+}
+
+#mnufc3{
+	background-image:url(../images/project/mnufc/mnufc3.jpg);
+	padding-top:75%;
+}
+
+#mnufc4{
+	background-image:url(../images/project/mnufc/mnufc4.jpg);
+	padding-top:100%;
+}
+
+#artcrank1{
+	background-image:url(../images/project/artcrank2015/artcrank1.jpg);
+	padding-top:75.5%;
+}
+
+#artcrank2{
+	background-image:url(../images/project/artcrank2015/artcrank2.jpg);
+	padding-top:65.25%;
+}
+
+#artcrank3{
+	background-image:url(../images/project/artcrank2015/artcrank3.jpg);
+	padding-top:65%;
+}
+#artcrank4{
+	background-image:url(../images/project/artcrank2015/artcrank4.jpg);
+	padding-top:67%;
+}
+
+#tlpc1{
+	background-image:url(../images/project/toughluckplayingcards/toughluck_1.jpg);
+	padding-top:100%;
+}
+
+#tlpc2{
+	background-image:url(../images/project/toughluckplayingcards/toughluck_2.jpg);
+	padding-top:100%;
+}
+
+#tlpc3{
+	background-image:url(../images/project/toughluckplayingcards/toughluck_3.jpg);
+	padding-top:100%;
+}
+
+#tlpc4{
+	background-image:url(../images/project/toughluckplayingcards/toughluck_4.jpg);
+	padding-top:100%;
+}
+
+#wheaties1{
+	background-image:url(../images/project/wheaties/wheaties1.jpg);
+	padding-top:160%;
+}
+
+#wheaties2{
+	background-image:url(../images/project/wheaties/wheaties2.jpg);
+	padding-top:160%;
+}
+
+#wheaties3{
+	background-image:url(../images/project/wheaties/wheaties3.jpg);
+	padding-top:150%;
+}
+
+#wheaties4{
+	background-image:url(../images/project/wheaties/wheaties4.jpg);
+	padding-top:150%;
+}
+
+#wheaties5{
+	background-image:url(../images/project/wheaties/wheaties5.jpg);
+	padding-top:140.5%;
+}
+
+#wheaties6{
+	background-image:url(../images/project/wheaties/wheaties6.jpg);
+	padding-top:150%;
+}
+
+#wheaties7{
+	background-image:url(../images/project/wheaties/wheaties7.jpg);
+	padding-top:100%;
+}
+
+#wheaties8{
+	background-image:url(../images/project/wheaties/wheaties8.jpg);
+	padding-top:125%;
+}
+
+#wheaties9{
+	background-image:url(../images/project/wheaties/wheaties9.jpg);
+	padding-top:136.5%;
+}
+
+#wheaties10{
+	background-image:url(../images/project/wheaties/wheaties10.jpg);
+	padding-top:133.2%;
+}
+
+
+#wheaties11{
+	background-image:url(../images/project/wheaties/wheaties11.jpg);
+	padding-top:148.2%;
+}
+
+#wheaties12{
+	background-image:url(../images/project/wheaties/wheaties12.jpg);
+	padding-top:160%;
+}
+
+#ill1{
+	background-image:url(../images/project/illustration/ill1.jpg);
+	padding-top:53.5%;
+}
+
+#ill2{
+	background-image:url(../images/project/illustration/ill2.jpg);
+	padding-top:70%;
+}
+
+#ill3{
+	background-image:url(../images/project/illustration/ill3.jpg);
+	padding-top:70%;
+}
+
+#ill4{
+	background-image:url(../images/project/illustration/ill4.jpg);
+	padding-top:77%;
+}
+
+#ill5{
+	background-image:url(../images/project/illustration/ill5.jpg);
+	padding-top:172%;
+}
+
+#ill6{
+	background-image:url(../images/project/illustration/ill6.jpg);
+	padding-top:155.3%;
+}
+
+#ill7{
+	background-image:url(../images/project/illustration/ill7.jpg);
+	padding-top:100%;
+}
+
+#ill8{
+	background-image:url(../images/project/illustration/ill8.jpg);
+	padding-top:143%;
+}
+
+#ill9{
+	background-image:url(../images/project/illustration/ill9.jpg);
+	padding-top:100%;
+}
+
+#ill10{
+	background-image:url(../images/project/illustration/ill10.jpg);
+	padding-top:63%;
+}
+
+#ill11{
+	background-image:url(../images/project/illustration/ill11.jpg);
+	padding-top:125%;
+}
+
+#ill12{
+	background-image:url(../images/project/illustration/ill12.jpg);
+	padding-top:87%;
+}
+
+#ill13{
+	background-image:url(../images/project/illustration/ill13.jpg);
+	padding-top:111.5%;
+}
+
+#ill14{
+	background-image:url(../images/project/illustration/ill14.jpg);
+	padding-top:63.2%;
+}
+
+#ill15{
+	background-image:url(../images/project/illustration/ill15.jpg);
+	padding-top:55%;
+}
+
+#ill16{
+	background-image:url(../images/project/illustration/ill16.jpg);
+	padding-top:65%;
+}
+
+#ill17{
+	background-image:url(../images/project/illustration/ill17.jpg);
+	padding-top:100%;
+}
+
+#ill18{
+	background-image:url(../images/project/illustration/ill18.jpg);
+	padding-top:122%;
+}
+
+#threadless1{
+	background-image:url(../images/project/threadless/threadless1.jpg);
+	padding-top:100%;
+}
+
+#threadless2{
+	background-image:url(../images/project/threadless/threadless2.jpg);
+	padding-top:50%;
+}
+
+#threadless3{
+	background-image:url(../images/project/threadless/threadless3.jpg);
+	padding-top:100%;
+}
+
+#threadless4{
+	background-image:url(../images/project/threadless/threadless4.jpg);
+	padding-top:121%;
+}
+
+#threadless5{
+	background-image:url(../images/project/threadless/threadless5.jpg);
+	padding-top:100%;
+}
+
+#threadless6{
+	background-image:url(../images/project/threadless/threadless6.jpg);
+	padding-top:139.25%;
+}
+
+#threadless7{
+	background-image:url(../images/project/threadless/threadless7.jpg);
+	padding-top:100%;
+}
+
+#threadless8{
+	background-image:url(../images/project/threadless/threadless8.jpg);
+	padding-top:160%;
+}
+
+#threadless9{
+	background-image:url(../images/project/threadless/threadless9.jpg);
+	padding-top:100%;
+}
+
+#threadless10{
+	background-image:url(../images/project/threadless/threadless10.jpg);
+	padding-top:113.5%;
+}
+
+#threadless11{
+	background-image:url(../images/project/threadless/threadless11.jpg);
+	padding-top:70%;
+}
+
+#threadless12{
+	background-image:url(../images/project/threadless/threadless12.jpg);
+	padding-top:75%;
+}
+
+#threadless13{
+	background-image:url(../images/project/threadless/threadless13.jpg);
+	padding-top:100%;
+}
+
+#threadless14{
+	background-image:url(../images/project/threadless/threadless14.jpg);
+	padding-top:172%;
+}
+
+#mcg1{
+	background-image:url(../images/project/madcircusgala/mcg1.jpg);
+	padding-top:145%;
+}
+
+#mcg2{
+	background-image:url(../images/project/madcircusgala/mcg2.jpg);
+	padding-top:133%;
+}
+
+#mcg3{
+	background-image:url(../images/project/madcircusgala/mcg3.jpg);
+	padding-top:133%;
+}
+
+#endtable1{
+	background-image:url(../images/project/endtable/endtable1.jpg);
+	padding-top:115%;
+}
+
+#endtable2{
+	background-image:url(../images/project/endtable/endtable2.jpg);
+	padding-top:112%;
+}
+
+#endtable3{
+	background-image:url(../images/project/endtable/endtable3.jpg);
+	padding-top:122%;
+}
+
+#endtable4{
+	background-image:url(../images/project/endtable/endtable4.jpg);
+	padding-top:124.5%;
+}
+
+#endtable5{
+	background-image:url(../images/project/endtable/endtable5.jpg);
+	padding-top:119%;
+}
+
+#endtable6{
+	background-image:url(../images/project/endtable/endtable6.jpg);
+	padding-top:124%;
+}
+
+#endtable7{
+	background-image:url(../images/project/endtable/endtable7.jpg);
+	padding-top:133%;
+}
+
+#endtable8{
+	background-image:url(../images/project/endtable/endtable8.jpg);
+	padding-top:75%;
+}
+
+#endtable9{
+	background-image:url(../images/project/endtable/endtable9.jpg);
+	padding-top:75%;
+}
+
+#endtable10{
+	background-image:url(../images/project/endtable/endtable10.jpg);
+	padding-top:75%;
+}
+
+#endtable11{
+	background-image:url(../images/project/endtable/endtable1.jpg);
+	padding-top:115%;
+}
+
+#endtable12{
+	background-image:url(../images/project/endtable/endtable11.jpg);
+	padding-top:86.5%;
+}
+
+#endtable13{
+	background-image:url(../images/project/endtable/endtable12.jpg);
+	padding-top:91%;
+}
+
+#imatelier1{
+	background-image:url(../images/project/imatelier/imatelier1.jpg);
+	padding-top:102.5%;
+}
+
+#imatelier2{
+	background-image:url(../images/project/imatelier/imatelier2.jpg);
+	padding-top:84%;
+}
+
+#imatelier3{
+	background-image:url(../images/project/imatelier/imatelier3.jpg);
+	padding-top:75%;
+}
+
+#imatelier4{
+	background-image:url(../images/project/imatelier/imatelier4.jpg);
+	padding-top:79.5%;
+}
+
+#imatelier5{
+	background-image:url(../images/project/imatelier/imatelier5.jpg);
+	padding-top:88.4%;
+}
+
+#imatelier6{
+	background-image:url(../images/project/imatelier/imatelier6.jpg);
+	padding-top:119.5%;
+}
+
+#imatelier7{
+	background-image:url(../images/project/imatelier/imatelier7.jpg);
+	padding-top:74.5%;
+}
+
+#monster1{
+	background-image:url(../images/project/monsters/monsters1.jpg);
+	padding-top:132%;
+}
+
+#monster2{
+	background-image:url(../images/project/monsters/monsters2.jpg);
+	padding-top:144%;
+}
+
+#monster3{
+	background-image:url(../images/project/monsters/monsters3.jpg);
+	padding-top:83%;
+}
+
+#monster4{
+	background-image:url(../images/project/monsters/monsters4.jpg);
+	padding-top:133%;
+}
+
+#monster5{
+	background-image:url(../images/project/monsters/monsters5.jpg);
+	padding-top:133%;
+}
+
+#logos1{
+	background-image:url(../images/project/logos/logos1.jpg);
+	padding-top:133.4%;
+}
+
+#logos2{
+	background-image:url(../images/project/logos/logos2.jpg);
+	padding-top:80.5%;
+}
+
+#logos3{
+	background-image:url(../images/project/logos/logos3.jpg);
+	padding-top:150%;
+}
+
+#logos4{
+	background-image:url(../images/project/logos/logos4.jpg);
+	padding-top:100%;
+}
+
+#logos5{
+	background-image:url(../images/project/logos/logos5.jpg);
+	padding-top:75%;
+}
+
+#logos6{
+	background-image:url(../images/project/logos/logos6.jpg);
+	padding-top:100%;
+}
+
+#logos7{
+	background-image:url(../images/project/logos/logos7.jpg);
+	padding-top:100%;
+}
+
+#peacecorps1{
+	background-image:url(../images/project/peacecorps/peace1.jpg);
+	padding-top:119%;
+}
+
+#peacecorps2{
+	background-image:url(../images/project/peacecorps/peace2.jpg);
+	padding-top:120%;
+}
+
+
+#peacecorps3{
+	background-image:url(../images/project/peacecorps/peace3.jpg);
+	padding-top:120%;
+}
+
+
+#peacecorps4{
+	background-image:url(../images/project/peacecorps/peace4.jpg);
+	padding-top:90%;
+}
+
+#unclejohns1{
+	background-image:url(../images/project/unclejohns/unclejohns1.jpg);
+	padding-top:77%;
+}
+
+
+#unclejohns2{
+	background-image:url(../images/project/unclejohns/unclejohns2.jpg);
+	padding-top:77%;
+}
+
+
+#unclejohns3{
+	background-image:url(../images/project/unclejohns/unclejohns3.jpg);
+	padding-top:77%;
+}
+
+#veggies1{
+	background-image:url(../images/project/veggieportraits/veggies1.jpg);
+	padding-top:137.5%;
+}
+
+#veggies2{
+	background-image:url(../images/project/veggieportraits/veggies2.jpg);
+	padding-top:137.5%;
+}
+
+#veggies3{
+	background-image:url(../images/project/veggieportraits/veggies3.jpg);
+	padding-top:137.5%;
+}
+
+#friends1{
+	background-image:url(../images/project/friends/friends1.jpg);
+	padding-top:145%;
+}
+
+#friends2{
+	background-image:url(../images/project/friends/friends2.jpg);
+	padding-top:145%;
+}
+
+#friends3{
+	background-image:url(../images/project/friends/friends3.jpg);
+	padding-top:160%;
+}
+
+#friends4{
+	background-image:url(../images/project/friends/friends4.jpg);
+	padding-top:120%;
+}
+
+#shirts1{
+	background-image:url(../images/project/t-shirts/shirt1.jpg);
+	padding-top:155%;
+}
+
+#shirts2{
+	background-image:url(../images/project/t-shirts/shirt2.jpg);
+	padding-top:150%;
+}
+
+#shirts3{
+	background-image:url(../images/project/t-shirts/shirt3.jpg);
+	padding-top:139%;
+}
+
+#shirts4{
+	background-image:url(../images/project/t-shirts/shirt4.jpg);
+	padding-top:105%;
+}
+
+#shirts5{
+	background-image:url(../images/project/t-shirts/shirt5.jpg);
+	padding-top:100%;
+}
+
+#shirts6{
+	background-image:url(../images/project/t-shirts/shirt6.jpg);
+	padding-top:100%;
+}
+
+#sketches1{
+	background-image:url(../images/project/sketches/sketch1.jpg);
+	padding-top:143%;
+}
+
+#sketches2{
+	background-image:url(../images/project/sketches/sketch2.jpg);
+	padding-top:128%;
+}
+
+#sketches3{
+	background-image:url(../images/project/sketches/sketch3.jpg);
+	padding-top:98%;
+}
+
+#sketches4{
+	background-image:url(../images/project/sketches/sketch4.jpg);
+	padding-top:133.3%;
+}
+
+#sketches5{
+	background-image:url(../images/project/sketches/sketch5.jpg);
+	padding-top:128%;
+}
+
+#oddsends1{
+	background-image:url(../images/project/oddsnends/oddsends1.jpg);
+	padding-top:75%;
+}
+
+#oddsends2{
+	background-image:url(../images/project/oddsnends/oddsends2.jpg);
+	padding-top:133%;
+}
+
+#oddsends3{
+	background-image:url(../images/project/oddsnends/oddsends3.jpg);
+	padding-top:143%;
+}
+
+#oddsends4{
+	background-image:url(../images/project/oddsnends/oddsends4.gif);
+	padding-top:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#oddsends5{
+	background-image:url(../images/project/oddsnends/oddsends5.gif);
+	padding-top:45%;
+}
+
+#oddsends7{
+	background-image:url(../images/project/oddsnends/oddsends7.jpg);
+	padding-top:129.5%;
+}
+
+#comics1{
+	background-image:url(../images/project/comics/comics1.jpg);
+	padding-top:208.8%;
+}
+
+
+#comics2{
+	background-image:url(../images/project/comics/comics2.jpg);
+	padding-top:153%;
+}
+
+
+#comics3{
+	background-image:url(../images/project/comics/comics3.jpg);
+	padding-top:150%;
+}
+
+
+#comics4{
+	background-image:url(../images/project/comics/comics4.jpg);
+	padding-top:72%;
+}
+
+
+#comics5{
+	background-image:url(../images/project/comics/comics5.jpg);
+	padding-top:72%;
+}
+
+
+#comics6{
+	background-image:url(../images/project/comics/comics6.jpg);
+	padding-top:72%;
+}
+
+
+#comics7{
+	background-image:url(../images/project/comics/comics7.jpg);
+	padding-top:72%;
+}
+
+#digitalpaintings1{
+	background-image:url(../images/project/digitalpaintings/digpaint1.jpg);
+	padding-top:63%;
+}
+
+#digitalpaintings2{
+	background-image:url(../images/project/digitalpaintings/digpaint2.jpg);
+	padding-top:67%;
+}
+
+#digitalpaintings3{
+	background-image:url(../images/project/digitalpaintings/digpaint3.jpg);
+	padding-top:140.5%;
+}
+
+#digitalpaintings4{
+	background-image:url(../images/project/digitalpaintings/digpaint4.jpg);
+	padding-top:120.3%;
+}
+
+#digitalpaintings5{
+	background-image:url(../images/project/digitalpaintings/digpaint5.jpg);
+	padding-top:133.5%;
+}
+
+#conceptart1{
+	background-image:url(../images/project/conceptart/cart1.jpg);
+	padding-top:150%;
+}
+
+#conceptart2{
+	background-image:url(../images/project/conceptart/cart2.jpg);
+	padding-top:67%;
+}
+
+#conceptart3{
+	background-image:url(../images/project/conceptart/cart3.jpg);
+	padding-top:100%;
+}
+
+#conceptart4{
+	background-image:url(../images/project/conceptart/cart4.jpg);
+	padding-top:120%;
+}
+
+#conceptart5{
+	background-image:url(../images/project/conceptart/cart5.jpg);
+	padding-top:100%;
+}
+
+#conceptart6{
+	background-image:url(../images/project/conceptart/cart6.jpg);
+	padding-top:100%;
+}
+
+#conceptart7{
+	background-image:url(../images/project/conceptart/cart7.jpg);
+	padding-top:100%;
+}
+
+#conceptart8{
+	background-image:url(../images/project/conceptart/cart8.jpg);
+	padding-top:100%;
+}
+
+/* Desktop Styles */
+#left {
+	width:25%;
+	float:left;
+}
+
+#right {
+	width:75%;
+	float:right;
+}
+
+h1 {
+	font-size:13px;
+	letter-spacing:1px;
+	line-height:150%;
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:50px;
+}
+
+#icon {
+	width:65%;
+	padding-top:49%;
+	margin-top:50px;
+	margin-left:10%;
+}
+
+.thumbbox {
+	position: relative;
+	float: left;
+	width: 33.33333%;
+	height: 0;
+	padding-top: 33.333333%;
+	overflow: hidden;
+}
+.thumbbox .overlay {
+	position: absolute;
+	top: 0; left: 0;
+	
+/*	display: none;*/
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,1);
+	opacity: 0;
+	text-align: center;
+	
+	transition: opacity 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+}
+.thumbbox .overlay:before, .thumbbox .overlay:after {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: middle;
+	content: ' ';
+	width: 1%;
+	height: 100%;
+}
+.thumbbox .overlay .title {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: middle;
+	
+	max-width: 96%;
+	border: 1px solid #AAA;
+	border-width: 1px 0;
+	padding: 20px 0;
+	
+	font-family: "raleway-regular", arial;
+	font-weight: bold;
+	color: #666;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+.thumbbox:hover .overlay { display: block; opacity: 0.8; }
+
+/* SMALL MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 549px){
+	#left{
+		float:none;
+		position:relative;
+		width: 100%;
+	}
+
+	#right{
+		float:none;
+		width: 100%;
+	}
+
+	h1 {
+		font-size:12px;
+		letter-spacing:1px;
+		line-height:150%;
+		margin-left:25px;
+		margin-right:25px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+
+	footer {
+		position: relative;
+		bottom: 0;
+		margin: 0;
+		
+		font-size: 10px;
+		text-align: center;
+		letter-spacing: 1px;
+	    padding: 10px 0px 20px 0px;
+		width: 100%;
+	}
+
+	#icon{
+		width:37%;
+		padding-top:30%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:5%;
+	}
+	
+	.thumbbox{
+		width:100%;
+		padding-top:100%;
+	}
+}
+
+/* LARGE MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 550px) and (max-width: 767px){
+	#left{
+		width: 100%;
+		position:relative;
+	}
+
+	#right{
+		width:100%;
+	}
+
+	h1{
+		font-size:12px;
+		letter-spacing:1px;
+		line-height:150%;
+		margin-left:25px;
+		margin-right:25px;
+		margin-top:50px;
+		margin-bottom:50px;
+	}
+
+	footer {
+		position: relative;
+		bottom: 0;
+		margin: 0;
+		
+		font-size: 10px;
+		text-align: center;
+		letter-spacing: 1px;
+		padding: 0px 0px 10px 0px;
+	}
+
+	#icon{
+		width:25%;
+		padding-top:20%;
+		margin-left:2%;
+		margin-right:5%;
+		float:left;
+		margin-bottom:25%;
+	}
+
+	.thumbbox{
+		width:50%;
+		padding-top:50%;
+		float:left;
+	}
+}
+
+/* TABLET STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 768px) and (max-width: 977px){
+	#left{
+		width:25%;
+		float:left;
+	}
+
+	#right{
+		width:75%;
+		float:right;
+	}
+
+	h1{
+		font-size:10px;
+		letter-spacing:1px;
+		line-height:150%;
+		margin-left:25px;
+		margin-right:25px;
+		margin-top:50px;
+	}
+	footer{
+		font-size:8px;
+		letter-spacing:1px;
+		margin-left:25px;
+		margin-right:25px;
+		bottom:15px;
+	}
+
+	#icon{
+		width:65%;
+		padding-top:49%;
+		margin-top:50px;
+		margin-left:10%;
+	}
+
+	.thumbbox{
+		width:50%;
+		padding-top:50%;
+		float:left;
+	}
+}
+
+/* DESKTOP STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 978px){
+}
+
