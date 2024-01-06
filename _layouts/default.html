@@ -26,8 +26,9 @@
       </div>
       <div id="right">
         {{ content }}
+
         {% for image in page.images %}
-        <div class="projectimg" id="{{ page.image_prefix }}{{ image }}"></div>
+          <div class="projectimg" id="{{ page.image_prefix }}{{ image }}"></div>
         {% endfor %}
       </div>
     </section>
