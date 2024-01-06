@@ -33,6 +33,31 @@ defaults:
     values:
       layout: "default"
 
+collections:
+  projects:
+    order:
+      - toughluckplayingcards.html
+      - mnufc.html
+      - artcrank2015.html
+      - wheaties.html
+      - illustrations.html
+      - threadless.html
+      - madcircusgala.html
+      - endtable.html
+      - imatelier.html
+      - monsters.html
+      - logos.html
+      - peacecorps.html
+      - unclejohns.html
+      - veggieportraits.html
+      - sketches.html
+      - friends.html
+      - shirts.html
+      - comics.html
+      - digitalpaintings.html
+      - conceptart.html
+      - oddsends.html
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
