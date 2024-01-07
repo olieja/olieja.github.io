@@ -8,11 +8,17 @@ description: >-
 
 {% assign projects = site.projects | sort: "project_order" %}
 {% for project in projects %}
-  <a href="{{ project.permalink }}">
-    <div class="thumbbox" id="thumb{{ project.thumb }}">
-      <div class="overlay">
-        <span class="title">{{ project.title }}</span>
-      </div>
-    </div>
-  </a>
+  {% assign images = site.static_files | where: "image", true %}
+  {% for image in images %}
+    {% assign permalink = project.permalink %}
+    {% if image.path contains permalink and image.path contains "thumb" %}
+      <a href="{{ project.permalink }}">
+        <div class="thumbbox" style="background-image: url({{ image.path }})">
+          <div class="overlay">
+            <span class="title">{{ project.title }}</span>
+          </div>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
 {% endfor %}
