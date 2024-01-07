@@ -64,13 +64,10 @@ h5 {
   letter-spacing: 0.5px;
   border: 2px 2px 2px 2px solid #000;
 }
-#right .projectimg {
-  /*project images, keep this!*/
+.projectimg {
   width: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  overflow: hidden;
   margin-bottom: 5px;
+  overflow: hidden;
 }
 /* Desktop Styles */
 #left {
